@@ -1,4 +1,0 @@
-Hi Bài tập lớn lập trình web
-
-Nhựt comment vài nội dung ở đây nhé!
-20/10: push code lên lần đầu
