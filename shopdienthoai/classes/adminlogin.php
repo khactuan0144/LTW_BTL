@@ -28,7 +28,7 @@ include '../helpers/format.php';
 
             if(empty($adminUser)||empty($adminPass)){
                 $alert = "Vui lòng không để trống User và Pass";
-                $result = $alert;
+                return $alert;
             }else{
                 $query = "SELECT * FROM tbl_admin WHERE adminUser = '$adminUser' AND adminPass = '$adminPass' LIMIT 1";
                 $result =$this->db->select($query);
