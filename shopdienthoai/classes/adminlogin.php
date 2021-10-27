@@ -42,7 +42,7 @@ include '../helpers/format.php';
                     header('Location:index.php');
 
                 }else{
-                    $alert = "Thông tin không trùng khớp";
+                    $alert = "Thông tin đăng nhập không trùng khớp";
                     return $alert;
                 }
             }

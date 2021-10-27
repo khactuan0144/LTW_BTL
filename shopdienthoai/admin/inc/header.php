@@ -1,4 +1,8 @@
 <?php
+    include '../lib/session.php';
+    Session::checkSession();
+?>
+<?php
   header("Cache-Control: no-cache, must-revalidate");
   header("Pragma: no-cache"); 
   header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); 
@@ -44,16 +48,26 @@
                     <img src="img/livelogo.png" alt="Logo" />
 				</div>
 				<div class="floatleft middle">
-					<h1>Training with live project</h1>
-					<p>www.trainingwithliveproject.com</p>
+					<h1>SHOP ĐIỆN THOẠI</h1>
+					<p>Nhóm 07 - LTW - CN19B</p>
 				</div>
                 <div class="floatright">
                     <div class="floatleft">
                         <img src="img/img-profile.jpg" alt="Profile Pic" /></div>
                     <div class="floatleft marginleft10">
                         <ul class="inline-ul floatleft">
-                            <li>Hello Admin</li>
-                            <li><a href="#">Logout</a></li>
+                            <li>Chào 
+                                <?php
+                                    echo Session::get('adminName');
+                                ?>
+                            </li>
+                            <?php 
+                                if(isset($_GET['action']) && $_GET['action'] == 'logout'){
+                                    Session::destroy();
+                                }
+
+                            ?>
+                            <li><a href="?action=logout">Đăng xuất</a></li>
                         </ul>
                     </div>
                 </div>

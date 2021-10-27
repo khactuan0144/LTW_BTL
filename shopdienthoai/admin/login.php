@@ -5,7 +5,6 @@ include '../classes/adminlogin.php';
 <?php
 	$class = new adminLogin();
 //kiểm tra nếu đúng phương thức thì gọi biến lấy data
-	
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
      	$adminUser = $_POST['adminUser'];
      	$adminPass = sha1($_POST['adminPass']);
@@ -25,6 +24,13 @@ include '../classes/adminlogin.php';
 	<section id="content">
 		<form action="login.php" method="post">
 			<h1>Admin Login</h1>
+			<span>
+				<?php
+					if(isset($login_check)){
+						echo $login_check;
+					}
+				?>
+			</span>
 			<div>
 				<input type="text" placeholder="Username" required="" name="adminUser"/>
 			</div>
