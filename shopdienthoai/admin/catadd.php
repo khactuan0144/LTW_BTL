@@ -31,7 +31,8 @@
                         </tr>
 						<tr> 
                             <td>
-                                <input type="submit" name="submit" Value="Lưu" />
+                                <input type="submit" name="submit" Value="Lưu lại" />
+                                <button class="btn_main"><a href="../admin/catlist.php">Xem danh mục</a></button>
                             </td>
                         </tr>
                     </table>
