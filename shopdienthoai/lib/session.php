@@ -16,10 +16,12 @@ class Session{
     }
  }
 
+/* set Session key */
  public static function set($key, $val){
     $_SESSION[$key] = $val;
  }
 
+ /* get Session key */
  public static function get($key){
     if (isset($_SESSION[$key])) {
      return $_SESSION[$key];
@@ -28,6 +30,7 @@ class Session{
     }
  }
 
+ /* kiểm tra phiên làm việc */
  public static function checkSession(){
     self::init();
     if (self::get("adminlogin")== false) {
@@ -36,6 +39,7 @@ class Session{
     }
  }
 
+ /* Kiểm tra đăng nhập */
  public static function checkLogin(){
     self::init();
     if (self::get("adminlogin")== true) {
@@ -43,6 +47,7 @@ class Session{
     }
  }
 
+ /* Xóa phiên làm việc */
  public static function destroy(){
   session_destroy();
   header("Location:login.php");

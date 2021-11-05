@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 
 <head>
@@ -41,8 +42,8 @@
                 <div class="shopping_cart">
                     <div class="cart">
                         <a href="#" title="View my shopping cart" rel="nofollow">
-                            <span class="cart_title">Cart</span>
-                            <span class="no_product">(empty)</span>
+                            <span class="cart_title">Giỏ hàng</span>
+                            <span class="no_product">(Trống)</span>
                         </a>
                     </div>
                 </div>
@@ -53,11 +54,11 @@
         </div>
         <div class="menu">
             <ul id="dc_mega-menu-orange" class="dc_mm-orange">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="products.php">Products</a> </li>
-                <li><a href="topbrands.php">Top Brands</a></li>
-                <li><a href="cart.php">Cart</a></li>
-                <li><a href="contact.php">Contact</a> </li>
+                <li><a href="index.php">Trang chủ</a></li>
+                <li><a href="products.php">Sản phẩm</a> </li>
+                <li><a href="topbrands.php">Thương hiệu</a></li>
+                <li><a href="cart.php">Giỏ hàng</a></li>
+                <li><a href="contact.php">Liên hệ</a> </li>
                 <div class="clear"></div>
             </ul>
         </div>
