@@ -159,24 +159,14 @@ input[type="number"] {
 	background: #70389C;
 }
 .login {
-  background: rgba(0, 0, 0, 0) url("../images/gradient_light-1.png") repeat-x scroll 0 0;
-  border: 1px solid #cecece;
-  box-sizing: border-box;
-  color: #444;
-  display: block;
-  float: left;
-  font-size: 27px;
-  height: 38px;
-  margin-left: 10px;
-  text-align: center;
-  width: 144px;
+  
 }
 .login a {
-	color:#333;
+
 }
 /*** Login ***/
 .register_account h3,.login_panel h3{
-	font-size: 22px;
+	font-size: 10px;
 	color: #6C6C6C;
 	font-family: 'Monda', sans-serif;
 	padding-bottom:.4em;

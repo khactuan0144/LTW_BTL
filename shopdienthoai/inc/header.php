@@ -47,7 +47,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="login"><a href="login.php">Login</a></div>
+                <div class="login"><a href="login.php">Đăng nhập</a></div>
                 <div class="clear"></div>
             </div>
             <div class="clear"></div>
