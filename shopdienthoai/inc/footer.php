@@ -3,43 +3,43 @@
         <div class="wrapper">
             <div class="section group">
                 <div class="col_1_of_4 span_1_of_4">
-                    <h4>Information</h4>
+                    <h4>Thông tin</h4>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Customer Service</a></li>
-                        <li><a href="#"><span>Advanced Search</span></a></li>
-                        <li><a href="#">Orders and Returns</a></li>
-                        <li><a href="#"><span>Contact Us</span></a></li>
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Dịch vụ Khách hàng</a></li>
+                        <li><a href="#"><span>Tìm kiếm nâng cao</span></a></li>
+                        <li><a href="#">Đơn hàng và Trả hàng</a></li>
+                        <li><a href="#"><span>Liên hệ với Chúng tôi</span></a></li>
                     </ul>
                 </div>
                 <div class="col_1_of_4 span_1_of_4">
-                    <h4>Why buy from us</h4>
+                    <h4>Tại sao mua từ chúng tôi</h4>
                     <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="faq.html">Customer Service</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="contact.html"><span>Site Map</span></a></li>
-                        <li><a href="preview.html"><span>Search Terms</span></a></li>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="faq.html">Dịch vụ Khách hàng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="contact.html"><span>Sơ đồ trang web</span></a></li>
+                        <li><a href="preview.html"><span>Cụm từ tìm kiếm</span></a></li>
                     </ul>
                 </div>
                 <div class="col_1_of_4 span_1_of_4">
-                    <h4>My account</h4>
+                    <h4>Tài khoản của Tôi</h4>
                     <ul>
-                        <li><a href="contact.html">Sign In</a></li>
-                        <li><a href="index.html">View Cart</a></li>
-                        <li><a href="#">My Wishlist</a></li>
-                        <li><a href="#">Track My Order</a></li>
-                        <li><a href="faq.html">Help</a></li>
+                        <li><a href="contact.html">Đăng nhập</a></li>
+                        <li><a href="index.html">Xem Giỏ hàng</a></li>
+                        <li><a href="#">Sản phẩm yêu thích</a></li>
+                        <li><a href="#">Theo dõi đơn hàng của tôi</a></li>
+                        <li><a href="faq.html">Trợ giúp</a></li>
                     </ul>
                 </div>
                 <div class="col_1_of_4 span_1_of_4">
-                    <h4>Contact</h4>
+                    <h4>Liên hệ</h4>
                     <ul>
                         <li><span>+88-01713458599</span></li>
                         <li><span>+88-01813458552</span></li>
                     </ul>
                     <div class="social-icons">
-                        <h4>Follow Us</h4>
+                        <h4>Theo dõi Chúng tôi</h4>
                         <ul>
                             <li class="facebook">
                                 <a href="#" target="_blank"> </a>
@@ -57,9 +57,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="copy_right">
-                <p>Training with live project &amp; All rights Reseverd </p>
             </div>
         </div>
     </div>
