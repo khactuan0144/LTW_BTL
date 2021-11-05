@@ -36,7 +36,7 @@
             <div class="header_top_right">
                 <div class="search_box">
                     <form>
-                        <input type="text" value="Search for Products" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search for Products';}"><input type="submit" value="SEARCH">
+                        <input type="text" value="Tìm kiếm sản phẩm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Tìm kiếm sản phẩm';}"><input type="submit" value="TÌM KIẾM">
                     </form>
                 </div>
                 <div class="shopping_cart">
