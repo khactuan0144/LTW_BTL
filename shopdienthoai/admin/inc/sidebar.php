@@ -2,16 +2,16 @@
     <div class="box sidemenu">
         <div class="block" id="section-menu">
             <ul class="section menu">
-               <li><a class="menuitem">Site Option</a>
+               <li><a class="menuitem">Tùy chọn trang</a>
                     <ul class="submenu">
-                        <li><a href="titleslogan.php">Title & Slogan</a></li>
-                        <li><a href="social.php">Social Media</a></li>
-                        <li><a href="copyright.php">Copyright</a></li>
+                        <li><a href="titleslogan.php">Tiêu đề & Slogan</a></li>
+                        <li><a href="social.php">Phương tiện truyền thông</a></li>
+                        <li><a href="copyright.php">Bản quyền</a></li>
                         
                     </ul>
                 </li>
 				
-                 <li><a class="menuitem">Update Pages</a>
+                 <li><a class="menuitem">Cập nhật trang</a>
                     <ul class="submenu">
                         <li><a>About Us</a></li>
                         <li><a>Contact Us</a></li>

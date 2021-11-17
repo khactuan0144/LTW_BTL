@@ -12,7 +12,7 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Admin</title>
+    <title>Trang quản trị</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/text.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/grid.css" media="screen" />
@@ -80,11 +80,11 @@
         </div>
         <div class="grid_12">
             <ul class="nav main">
-                <li class="ic-dashboard"><a href="index.php"><span>Dashboard</span></a> </li>
-                <li class="ic-form-style"><a href=""><span>User Profile</span></a></li>
-				<li class="ic-typography"><a href="changepassword.php"><span>Change Password</span></a></li>
-				<li class="ic-grid-tables"><a href="inbox.php"><span>Inbox</span></a></li>
-                <li class="ic-charts"><a href=""><span>Visit Website</span></a></li>
+                <li class="ic-dashboard"><a href="index.php"><span>Trang chủ</span></a> </li>
+                <li class="ic-form-style"><a href=""><span>Thông tin người dùng</span></a></li>
+				<li class="ic-typography"><a href="changepassword.php"><span>Đổi mật khẩu</span></a></li>
+				<li class="ic-grid-tables"><a href="inbox.php"><span>Nhắn tin</span></a></li>
+                <li class="ic-charts"><a href=""><span>Truy cập Website</span></a></li>
             </ul>
         </div>
         <div class="clear">
