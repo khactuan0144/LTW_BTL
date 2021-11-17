@@ -43,7 +43,8 @@
                         </tr>
 						<tr> 
                             <td>
-                                <input type="submit" name="submit" Value="Update" />
+                                <input type="submit" name="submit" Value="Cập nhật" />
+                                <button class="btn_main"><a href="../admin/brandlist.php">Quay lại</a></button>
                             </td>
                         </tr>
                     </table>

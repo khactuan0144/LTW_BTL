@@ -29,7 +29,7 @@
                         <li><a href="brandlist.php">Danh sách thương hiệu</a> </li>
                     </ul>
                 </li>
-                <li><a class="menuitem">Danh mục sản phẩm</a>
+                <li><a class="menuitem">Danh mục</a>
                     <ul class="submenu">
                         <li><a href="catadd.php">Thêm danh mục</a> </li>
                         <li><a href="catlist.php">Danh sách danh mục</a> </li>
