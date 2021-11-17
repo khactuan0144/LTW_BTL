@@ -19,7 +19,7 @@ $fm = new Format();
 	$br = new brand(); */
 $cat = new category();
 $cs = new customer();
-//$product = new product();
+$product = new product();
 
 
 ?>

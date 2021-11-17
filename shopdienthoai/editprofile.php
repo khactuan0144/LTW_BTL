@@ -18,7 +18,6 @@
  //    }
  	$id = Session::get('customer_id');
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['save'])) {
-       
         $UpdateCustomers = $cs->update_customers($_POST, $id);
         
     }
