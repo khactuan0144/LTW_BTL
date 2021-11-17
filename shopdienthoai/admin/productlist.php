@@ -14,7 +14,7 @@
 ?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Product List</h2>
+        <h2>Danh sách sản phẩm</h2>
         <div class="block"> 
         <?php
         if(isset($delpro)){
