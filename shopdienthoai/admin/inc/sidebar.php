@@ -17,10 +17,10 @@
                         <li><a>Contact Us</a></li>
                     </ul>
                 </li>
-				<li><a class="menuitem">Slider Option</a>
+				<li><a class="menuitem">Slider</a>
                     <ul class="submenu">
-                        <li><a href="addslider.php">Add Slider</a> </li>
-                        <li><a href="sliderlist.php">Slider List</a> </li>
+                        <li><a href="addslider.php">Thêm Slider</a> </li>
+                        <li><a href="sliderlist.php">Danh sách Slider</a> </li>
                     </ul>
                 </li>
                 <li><a class="menuitem">Thương hiệu</a>
@@ -35,10 +35,10 @@
                         <li><a href="catlist.php">Danh sách danh mục</a> </li>
                     </ul>
                 </li>
-                <li><a class="menuitem">Product Option</a>
+                <li><a class="menuitem">Sản phẩm</a>
                     <ul class="submenu">
-                        <li><a href="addproduct.php">Add Product</a> </li>
-                        <li><a href="productlist.php">Product List</a> </li>
+                        <li><a href="productadd.php">Thêm sản phẩm</a> </li>
+                        <li><a href="productlist.php">Danh sách sản phẩm</a> </li>
                     </ul>
                 </li>
             </ul>
