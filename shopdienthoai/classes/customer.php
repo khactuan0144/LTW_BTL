@@ -96,8 +96,8 @@
 					Session::set('customer_login',true);
 					Session::set('customer_id',$value['id']);
 					Session::set('customer_name',$value['name']);
-					$alert = "<span class='success'>Đăng nhập thành công <a href='payment.php'>Đến trang thanh toán</a></span>";
-						return $alert;
+					header ("Location:index.php");
+					exit;
 				}else{
 					$alert = "<span class='error'>Email hoặc Mật khẩu không đúng</span>";
 					return $alert;
@@ -111,7 +111,6 @@
 		}
 		public function update_customers($data, $id){
 			$name = mysqli_real_escape_string($this->db->link, $data['name']);
-			
 			$email = mysqli_real_escape_string($this->db->link, $data['email']);
 			$address = mysqli_real_escape_string($this->db->link, $data['address']);
 			$phone = mysqli_real_escape_string($this->db->link, $data['phone']);

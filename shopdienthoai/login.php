@@ -32,7 +32,7 @@
     			echo $login_Customers;
     		}
         	?>
-        	<form action="" method="post">
+        	<form action="" method="POST">
                 	<input  type="text" name="email" class="field" placeholder="Email">
                     <input  type="password" name="password" class="field"  placeholder="Mật khẩu" >
                  
