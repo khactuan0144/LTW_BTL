@@ -1,34 +1,34 @@
 <?php
-    include 'lib/session.php';
-    Session::init();
+include 'lib/session.php';
+Session::init();
 ?>
 <?php
-	
-	include 'lib/database.php';
-	include 'helpers/format.php';
 
-	spl_autoload_register(function($class){
-		include_once "classes/".$class.".php";
-	});
-		
+include 'lib/database.php';
+include 'helpers/format.php';
 
-	$db = new Database();
-	$fm = new Format();
-	/* $ct = new cart();
+spl_autoload_register(function ($class) {
+    include_once "classes/" . $class . ".php";
+});
+
+
+$db = new Database();
+$fm = new Format();
+/* $ct = new cart();
 	$us = new user();
 	$br = new brand(); */
-	$cat = new category();
-	$cs = new customer();
-	//$product = new product();
-		
-	      	 	
+$cat = new category();
+$cs = new customer();
+//$product = new product();
+
+
 ?>
 
 <?php
-  header("Cache-Control: no-cache, must-revalidate");
-  header("Pragma: no-cache"); 
-  header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); 
-  header("Cache-Control: max-age=2592000");
+header("Cache-Control: no-cache, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+header("Cache-Control: max-age=2592000");
 ?>
 
 
@@ -76,24 +76,50 @@
                 </div>
                 <div class="shopping_cart">
                     <div class="cart">
-                        <a href="#" title="View my shopping cart" rel="nofollow">
+                        <a href="cart.php" title="View my shopping cart" rel="nofollow">
                             <span class="cart_title">Giỏ hàng</span>
                             <span class="no_product">(Trống)</span>
                         </a>
                     </div>
                 </div>
-                <div class="login"><a href="login.php">Đăng nhập</a></div>
+
+
+                <?php
+                if (isset($_GET['customer_id'])) {
+                    $customer_id = $_GET['customer_id'];
+                    $delCart = $ct->del_all_data_cart();
+                    $delCompare = $ct->del_compare($customer_id);
+                    Session::destroy();
+                }
+                ?>
+                <div class="login">
+                    <?php
+                    $login_check = Session::get('customer_login');
+                    if ($login_check == false) {
+                        echo '<a href="login.php">Đăng nhập</a></div>';
+                    } else {
+                        echo '<a href="?customer_id=' . Session::get('customer_id') . '">Đăng xuất</a></div>';
+                    }
+                    ?>
+                    <div class="clear"></div>
+                </div>
                 <div class="clear"></div>
             </div>
-            <div class="clear"></div>
-        </div>
-        <div class="menu">
-            <ul id="dc_mega-menu-orange" class="dc_mm-orange">
-                <li><a href="index.php">Trang chủ</a></li>
-                <li><a href="products.php">Sản phẩm</a> </li>
-                <li><a href="topbrands.php">Thương hiệu</a></li>
-                <li><a href="cart.php">Giỏ hàng</a></li>
-                <li><a href="contact.php">Liên hệ</a> </li>
-                <div class="clear"></div>
-            </ul>
-        </div>
+            <div class="menu">
+                <ul id="dc_mega-menu-orange" class="dc_mm-orange">
+                    <li><a href="index.php">Trang chủ</a></li>
+                    <li><a href="products.php">Danh mục sản phẩm</a> </li>
+                    <li><a href="topbrands.php">Thương hiệu</a></li>
+                    <li><a href="cart.php">Giỏ hàng</a></li>
+                    <?php
+                    $login_check = Session::get('customer_login');
+                    if ($login_check == false) {
+                        echo '';
+                    } else {
+                        echo '<li><a href="profile.php">Tài khoản</a> </li>';
+                    }
+                    ?>
+                    <li><a href="contact.php">Liên hệ</a> </li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
