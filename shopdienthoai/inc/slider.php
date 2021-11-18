@@ -1,5 +1,5 @@
 <div class="header_bottom">
-            <div class="header_bottom_left">
+            <!-- <div class="header_bottom_left">
                 <div class="section group">
                     <div class="listview_1_of_2 images_1_of_2">
                         <div class="listimg listimg_2_of_1">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="clear"></div>
-            </div>
+            </div> -->
             <div class="header_bottom_right_images">
                 <!-- FlexSlider -->
 

@@ -102,8 +102,6 @@
 			$sId = session_id();
 			$query = "DELETE FROM tbl_cart WHERE sId = '$sId'";
 			$result = $this->db->delete($query);
-			
-
 		}
 		public function del_compare($customer_id){
 			$sId = session_id();
